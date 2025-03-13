@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vainilla y Menta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            height: 50px;
+        }
+
+        
+        nav ul {
+    list-style: none;  
+    padding: 0;
+    margin: 0;
+    display: flex;  
+    justify-content: center;  
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none !important; 
+    color: #5B3C20 !important; 
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+
+nav ul li a:hover {
+    color: #A67C52 !important;
+}
+
+nav ul li a:visited {
+    color: #5B3C20 !important;
+}
+
+
+a {
+    all: unset;
+}
+
+
+.carousel-track {
+    display: flex;
+    width: 200%; 
+    animation: slide 20s linear infinite; 
+}
+
+.carousel-track img {
+    width: 100vw; 
+    height: auto;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-100%); } 
+    100% { transform: translateX(0); } 
+}
+
+
+        .jewelry {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .jewelry div {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .jewelry img {
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png.png" alt="Vainilla y Menta" class="logo">
+        <nav>
+            <ul>
+            </li><a href="servicios.html">Servicios</a></li>
+            <li> <a href="colecciones.html">Colecciones</a></li>
+            <li> <a href="sobre-mi.html">Sobre mí</a></li>
+            <li> <a href="contacto.html">Contacto</a></li>
+            <ul>
+        </nav>
+        
+    </header>
+    <section class="carousel">
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="carrusel.1.png" alt="Imagen 1">
+                <img src="carrusel.2.png" alt="Imagen 2">
+                <img src="carrusel.3.png" alt="Imagen 3">
+                <img src="carrusel.1.png" alt="Imagen 1">
+                <img src="carrusel.2.png" alt="Imagen 2">
+                <img src="carrusel.3.png" alt="Imagen 3">
+
+
+            </div>
+        </div>
+    </section>
+    <section class="jewelry">
+        <div>
+            <h3>Aretes</h3>
+            <img src="aretes.jpg" alt="Aretes">
+        </div>
+        <div>
+            <h3>Pulseras</h3>
+            <img src="pulseras.jpg" alt="Pulseras">
+        </div>
+        <div>
+            <h3>Collares</h3>
+            <img src="collares.jpg" alt="Collares">
+        </div>
+        <div>
+            <h3>Anillos</h3>
+            <img src="anillos.jpg" alt="Anillos">
+        </div>
+    </section>
+
+</div>
+
+<div class="static-images">
+    <img src="slinde.png" alt="Imagen fija 1">
+    <img src="slinde2.png" alt="Imagen fija 2">
+    <img src="INFO.png" alt="Imagen fija 2">
+</div>
+
+</body>
+</html>
