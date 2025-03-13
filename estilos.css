@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    height: 50px;
+}
+
+
+nav ul {
+list-style: none;  
+padding: 0;
+margin: 0;
+display: flex;  
+justify-content: center;  
+padding: 15px 0;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center; 
+padding: 0;
+}
+
+nav ul li {
+margin: 0 20px;
+}
+
+nav ul li a {
+text-decoration: none !important; 
+color: #5B3C20 !important; 
+font-size: 18px;
+font-weight: bold;
+transition: color 0.3s ease-in-out;
+}
+
+
+nav ul li a:hover {
+color: #A67C52 !important;
+}
+
+
+nav ul li a:visited {
+color: #5B3C20 !important;
+}
+
+
+a {
+all: unset;
+}
+
+
+.carousel-track {
+display: flex;
+width: 200%; 
+animation: slide 20s linear infinite; 
+}
+
+.carousel-track img {
+width: 100vw; 
+height: auto;
+}
+
+@keyframes slide {
+0% { transform: translateX(0); }
+50% { transform: translateX(-100%); } 
+100% { transform: translateX(0); } 
+}
+
+
+.jewelry {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.jewelry div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.jewelry img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
